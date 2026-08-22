@@ -1,5 +1,7 @@
 # Block-Telemetry
 
+🇬🇧 [English version](README.md)
+
 Script PowerShell autonome qui bloque les domaines de télémétrie, d'analytics et de tracking tiers sur Windows via le fichier `hosts` — avec sauvegardes automatiques, liste blanche stricte, simulation avant application, restauration en un clic, et vérificateur d'intégrité pour que le blocage ne dérive jamais silencieusement.
 
 > Rien n'est laissé au hasard. Une liste blanche stricte protège les domaines d'activation/licence/mise à jour par correspondance exacte (jamais une correspondance de sous-chaîne), chaque modification réelle est sauvegardée avant écriture, et le blocage actif peut être vérifié par rapport à la liste attendue à tout moment.
