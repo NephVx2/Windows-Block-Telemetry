@@ -1,5 +1,7 @@
 # Block-Telemetry
 
+🇫🇷 [Version française](README_FRENCH.md)
+
 Standalone PowerShell script that blocks telemetry, analytics, and third-party tracking domains on Windows via the `hosts` file — with automatic backups, a strict whitelist, a dry-run preview, one-click restore, and an integrity checker so the block never silently drifts out of sync.
 
 > Nothing is guessed. A strict whitelist protects activation/licensing/update domains by exact match (never a substring match), every real change is backed up first, and the active block can be verified against the expected list at any time.
